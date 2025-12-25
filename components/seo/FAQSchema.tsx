@@ -48,7 +48,7 @@ export default function FAQSchema() {
         name: "How do I schedule a pickup?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "You can schedule a pickup by calling us at +91-9920175985, messaging us on WhatsApp, or filling out the booking form on our website. Our team will coordinate a convenient time for pickup.",
+          text: "You can schedule a pickup by calling us at +91-9322931992, messaging us on WhatsApp, or filling out the booking form on our website. Our team will coordinate a convenient time for pickup.",
         },
       },
     ],

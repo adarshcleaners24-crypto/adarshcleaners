@@ -8,7 +8,7 @@ export default function StructuredData() {
     description:
       "Premium laundry and dry cleaning services in Mumbai with over 20 years of experience. Free doorstep pickup and delivery.",
     url: "https://adarshcleaners.com",
-    telephone: "+91-9920175985",
+    telephone: "+91-9322931992",
     email: "info@adarshdrycleaners.com",
     address: [
       {
@@ -109,7 +109,7 @@ export default function StructuredData() {
     logo: "https://adarshcleaners.com/logo/logo.svg",
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+91-9920175985",
+      telephone: "+91-9322931992",
       contactType: "Customer Service",
       email: "info@adarshdrycleaners.com",
       availableLanguage: ["English", "Hindi", "Marathi"],

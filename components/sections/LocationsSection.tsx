@@ -44,7 +44,7 @@ const locations: Location[] = [
       "Shop no 4 Om Sadachar CHS. Kasturi park, Shimpoli, Borivali west opp bank of baroda",
   },
   {
-    name: "KANDIVALI",
+    name: "SHANKAR GALI",
     image: "/images/mahavir.jpg",
     location:
       "https://www.google.com/maps/place/Adarsh+Cleaners+-+Premium+Laundry+%26+Dry+Cleaning+Services+in+Kandivali+West+%7C+Free+Pick-up+%26+Delivery/@19.2103076,72.8372816,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7b6d1c1555511:0x1f9b3d5a68d27948!8m2!3d19.2103076!4d72.8398565!16s%2Fg%2F11c1s_14s3?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D",

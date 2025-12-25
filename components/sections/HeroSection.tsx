@@ -63,11 +63,7 @@ export default function HeroSection() {
             </div>
             <div className="flex items-center text-white text-sm md:text-base">
               <span className="w-2 h-2 bg-white rounded-full mr-2"></span>
-              Mahavir Nagar
-            </div>
-            <div className="flex items-center text-white text-sm md:text-base">
-              <span className="w-2 h-2 bg-white rounded-full mr-2"></span>
-              Shankar Gali
+              Kandivali
             </div>
           </motion.div>
 
@@ -94,7 +90,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.2 }}
-              href="tel:+919920175985"
+              href="tel:+919322931992"
             >
               CALL NOW
             </motion.a>

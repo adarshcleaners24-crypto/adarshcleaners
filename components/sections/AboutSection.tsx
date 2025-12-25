@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import AnimatedSection from '@/components/animations/AnimatedSection';
 import { staggerContainer } from '@/components/animations/variants';
 import { ExpertFabricHandlingIcon, ReliablePickupDeliveryIcon, LocalServiceIcon, MoneyBagIcon } from '@/components/icons/SvgIcons';
+import Image from 'next/image';
 
 const whyChooseData = [
   {
@@ -91,6 +92,21 @@ export default function AboutSection() {
             ● Thousands of garments cleaned. Zero shortcuts taken.
           </p>
         </div>
+
+      <Image
+        src="/logo/half-logo.png"
+        alt="Background Pattern"
+        width={250}
+        height={400}
+        className=" absolute -mt-46 left-0 opacity-40 hidden md:block"
+      />
+      <Image
+        src="/logo/half-logo.png"
+        alt="Background Pattern"
+        width={150}
+        height={400}
+        className=" absolute -mt-6 left-0 opacity-40 md:hidden"
+      />
       </div>
     </section>
   );

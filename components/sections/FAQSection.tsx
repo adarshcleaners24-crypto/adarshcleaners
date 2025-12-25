@@ -14,7 +14,7 @@ const faqData = [
   {
     question: "Q2. How long does delivery take?",
     answer:
-      "Most orders are delivered within 24–48 hours. Express service is also available.",
+      "Most orders are delivered based on location and Fabric type.",
   },
   {
     question: "Q3. Do you remove tough stains?",
@@ -41,27 +41,6 @@ const faqData = [
     answer:
       "Our customers trust us for consistent quality and service. Many of them return regularly and recommend us to others.",
     hasReviews: true,
-  },
-];
-
-const reviews = [
-  {
-    name: "Abhishek Guleria",
-    rating: 3,
-    comment:
-      "Results may vary based on age, genetics, and medical condition. All procedures are performed by licensed professionals following clinical protocols.",
-  },
-  {
-    name: "Sonal Kapoor",
-    rating: 4,
-    comment:
-      "Results may vary based on age, genetics, and medical condition. All procedures are performed by licensed professionals following clinical protocols.",
-  },
-  {
-    name: "Ravi Deshmukh",
-    rating: 5,
-    comment:
-      "Results may vary based on age, genetics, and medical condition. All procedures are performed by licensed professionals following clinical protocols.",
   },
 ];
 
@@ -142,7 +121,7 @@ export default function FAQSection() {
                         {faq.answer}{" "}
                         {index === 6 && (
                           <a
-                            href="https://www.google.com/search?sca_esv=8c1d8b7610d1bcd4&cs=1&output=search&kgmid=/g/11d_7899xv&q=Adarsh+Cleaners+-+Premium+Laundry+%26+Dry+Cleaning+Services+in+Malad+West+%7C+Free+Pick-up+%26+Delivery&shndl=30&shem=damc,lcuae,ptotplc,uaasie,shrtsdl&source=sh/x/loc/uni/m1/1&kgs=ee5767d34046ca43&utm_source=damc,lcuae,ptotplc,uaasie,shrtsdl,sh/x/loc/uni/m1/1#lrd=0x3be7b6e7aa7da677:0xaa8e939a0de30988,1"
+                            href="https://www.google.com/search?sxsrf=AE3TifM738RjQevmbCJX7NuWqz8vb7mjXQ:1766665929697&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EyctYW1uH5h16l1Qc1XQsAZBXKXdKHRK4uKmscBEqYcNO82fMbGk7XAhsE9fwwx911etpRkaeAe5vm590sE0Gb1ls9OtJc6XeWU5YEujIEEX-SyOzbzG_q5TityuZTTAEHzhMP7nGq4nsYjWVNuTv4D5rBYV6Iyp1ZBD0z1SIzxel7x30fb7_-SPrs6B5ZMSygR-dd44pJMA6NHG48yHVIyKWl2a&q=Adarsh+Cleaners+-+Premium+Laundry+%26+Dry+Cleaning+Services+in+Kandivali+West+%7C+Free+Pick-up+%26+Delivery+Reviews"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="font-bold text-primary hover:underline"
@@ -151,48 +130,6 @@ export default function FAQSection() {
                           </a>
                         )}
                       </p>
-
-                      {/* Reviews Section - Only for Question 7 */}
-                      {index === 6 && (
-                        <div className="mt-6">
-                          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                            {[1, 2, 3].map((item, reviewIndex) => (
-                              <motion.div
-                                key={reviewIndex}
-                                className="bg-bg-light rounded-lg p-4"
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: reviewIndex * 0.1 }}
-                              >
-                                <div className="flex items-center justify-between mb-2">
-                                  <h1 className="text-base font-semibold  text-primary">
-                                    {reviews[reviewIndex].name}
-                                  </h1>
-                                  <div className="flex gap-1">
-                                    {[1, 2, 3, 4, 5].map((star) => (
-                                      <svg
-                                        key={star}
-                                        className={`w-4 h-4 ${
-                                          star <= reviews[reviewIndex].rating
-                                            ? "text-yellow-400 fill-current"
-                                            : "text-gray-300 fill-current"
-                                        }`}
-                                        viewBox="0 0 20 20"
-                                      >
-                                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
-                                      </svg>
-                                    ))}
-                                  </div>
-                                </div>
-                                <p className="text-xs text-gray-600 font-switzer">
-                                  {reviews[reviewIndex].comment}
-                                </p>
-                              </motion.div>
-                            ))}
-                          </div>
-                        </div>
-                      )}
                     </div>
                   </motion.div>
                 )}

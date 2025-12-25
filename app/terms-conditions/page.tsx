@@ -219,7 +219,7 @@ export default function TermsConditionsPage() {
                 <li>
                   <strong>Phone:</strong>{" "}
                   <a
-                    href="tel:+919920175985"
+                    href="tel:+919322931992"
                     className="text-primary hover:underline"
                   >
                     +91 93229 31992
@@ -228,7 +228,7 @@ export default function TermsConditionsPage() {
                 <li>
                   <strong>WhatsApp:</strong>{" "}
                   <a
-                    href="https://wa.me/919920175985"
+                    href="https://wa.me/919322931992"
                     className="text-primary hover:underline"
                   >
                     +91 93229 31992

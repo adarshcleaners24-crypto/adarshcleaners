@@ -31,7 +31,7 @@ export default function SchedulePickupPage() {
       `*Special Instructions:* ${formData.optionalNotes || "None"}`;
 
     // WhatsApp business number
-    const whatsappNumber = "919920175985";
+    const whatsappNumber = "919322931992";
 
     // Redirect to WhatsApp
     window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
@@ -76,7 +76,7 @@ export default function SchedulePickupPage() {
             transition={{ delay: 0.2 }}
           >
             <a
-              href="tel:+919920175985"
+              href="tel:+919322931992"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 border border-primary text-primary rounded-md flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
@@ -84,7 +84,7 @@ export default function SchedulePickupPage() {
               <Phone size={20} />
             </a>
             <a
-              href="https://wa.me/919920175985"
+              href="https://wa.me/919322931992"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 border border-primary text-primary rounded-md flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
@@ -93,7 +93,7 @@ export default function SchedulePickupPage() {
               <MessageCircle size={20} />
             </a>
             <a
-              href="mailto:info@adarshdrycleaners.com"
+              href="mailto:info@adarshcleaners.com"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 border border-primary text-primary rounded-md flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
